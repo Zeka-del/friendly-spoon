@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скачать МОЙ ПРОЕКТ</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            text-align: center;
+        }
+        .card {
+            background: #161b22;
+            padding: 2.5rem;
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+            max-width: 420px;
+            width: 90%;
+            border: 1px solid #30363d;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+        .sub {
+            color: #8b949e;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background: #238636;
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 0.9rem 2.2rem;
+            border-radius: 40px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(35, 134, 54, 0.4);
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #2ea043;
+            transform: scale(1.02);
+        }
+        .btn:active {
+            transform: scale(0.96);
+        }
+        .info {
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            color: #8b949e;
+        }
+        .info a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        .info a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.75rem;
+            color: #484f58;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>📦 МОЙ ПРОЕКТ</h1>
+        <p class="sub">Нажмите кнопку, чтобы скачать архив</p>
+        <a href="https://drive.google.com/uc?export=download&id=1Gh_ZYJVDoPzIPzNef_aTMIfQDynY0R0c" class="btn" download>
+            ⬇️ Скачать
+        </a>
+        <div class="info">
+            Версия 1.0 · 20.2 КБ
+        </div>
+        <div class="footer">
+            Проект создан в <a href="https://appmint.com" target="_blank">AppMint</a>
+        </div>
+    </div>
+</body>
+</html>
